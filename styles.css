@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to bottom right, #292e5d, rgba(18, 21, 51, 0.78)) fixed;
+    color: #d8dce3;
+}
+
+#title {
+    text-align: center;
+    padding-bottom: 1.25%;
+    font-family: "Garamond", serif;
+    font-style: italic;
+    font-size: 500%;
+}
+
+#subheading {
+    text-align: center;
+    font-family: "Palatino Linotype", serif;
+}
