@@ -23,19 +23,21 @@ body {
     opacity: 1;
 }
 
-#titleAndSubHeading {
-    position: absolute;
-    right: 5vw;
-    text-align: center;
-}
-
 #title {
-    padding: 1.25vw;
+    position: fixed;
+    top: -1vw;
+    right: 7.5vw;
     font-family: "Garamond", serif;
     font-style: italic;
-    font-size: 500%;
+    font-size: 6vw;
 }
 
 #subheading {
+    position: fixed;
+    top: 10.5vw;
+    right: 1vw;
+    width: 52.5vw;
     font-family: "Palatino Linotype", serif;
+    font-size: 1.3vw;
+    text-align: center;
 }
