@@ -1,17 +1,41 @@
 body {
-    background: linear-gradient(to bottom right, #292e5d, rgba(18, 21, 51, 0.78)) fixed;
+    background: linear-gradient(to right, rgb(31, 37, 112), #702dac) fixed;
     color: #d8dce3;
 }
 
-#title {
+.slideshowImages {
+    background-size: cover;
+    background: linear-gradient(45deg, transparent 50%, rgba(255, 255, 255, 0.5) 50%) center;
+}
+
+.slideshowImages img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60vw;
+    height: 17.5vw;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 60% 100%, 0% 100%);
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+.slideshowImages img.active {
+    opacity: 1;
+}
+
+#titleAndSubHeading {
+    position: absolute;
+    right: 5vw;
     text-align: center;
-    padding-bottom: 1.25%;
+}
+
+#title {
+    padding: 1.25vw;
     font-family: "Garamond", serif;
     font-style: italic;
     font-size: 500%;
 }
 
 #subheading {
-    text-align: center;
     font-family: "Palatino Linotype", serif;
 }
