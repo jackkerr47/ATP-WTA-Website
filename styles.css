@@ -42,13 +42,24 @@ body {
     text-align: center;
 }
 
-.group {
+.latestnews {
     position: absolute;
     top: 42vh;
     left: 5vw;
 }
 
-.group h3 {
+.bestof2023 {
+    position: absolute;
+    top: 100vh;
+    left: 5vw;
+}
+
+.latestnews h3 {
+    font-size: 200%;
+    margin: 0;
+}
+
+.bestof2023 h3 {
     font-size: 200%;
     margin: 0;
 }

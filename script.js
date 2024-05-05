@@ -8,11 +8,11 @@ function showImages() {
     });
 
     imageIndex++;
-    if (imageIndex > images.length) {
-        imageIndex = 1;
+    if (imageIndex === images.length) {
+        imageIndex = 0;
     }
 
-    images[imageIndex - 1].classList.add('active');
+    images[imageIndex].classList.add('active');
 
     setTimeout(showImages, 5000);
 }
