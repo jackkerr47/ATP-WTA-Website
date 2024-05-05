@@ -1,5 +1,5 @@
-let imageIndex = 0;
-const images = document.querySelectorAll('.slideshowImages img');
+let imageIndex = 0; // Current image number on display
+const images = document.querySelectorAll('.slideshowImages img'); // All images in the slideshow
 
 // Function which changes which image is on display after a number of seconds by removing the current image from the 'active' class and adding the next image
 function showImages() {

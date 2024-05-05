@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(to right, rgb(31, 37, 112), #702dac) fixed;
     color: #d8dce3;
+    font-family: "Garamond", serif;
 }
 
 .slideshowImages {
@@ -13,7 +14,7 @@ body {
     top: 0;
     left: 0;
     width: 60vw;
-    height: 17.5vw;
+    height: 35vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 60% 100%, 0% 100%);
     transition: opacity 1s ease-in-out;
     opacity: 0;
@@ -24,20 +25,58 @@ body {
 }
 
 #title {
-    position: fixed;
-    top: -1vw;
+    position: absolute;
+    top: -3vh;
     right: 7.5vw;
-    font-family: "Garamond", serif;
     font-style: italic;
     font-size: 6vw;
 }
 
 #subheading {
-    position: fixed;
-    top: 10.5vw;
+    position: absolute;
+    top: 20vh;
     right: 1vw;
     width: 52.5vw;
     font-family: "Palatino Linotype", serif;
     font-size: 1.3vw;
     text-align: center;
+}
+
+.group {
+    position: absolute;
+    top: 42vh;
+    left: 5vw;
+}
+
+.group h3 {
+    font-size: 200%;
+    margin: 0;
+}
+
+.articles {
+    position: absolute;
+    width: 25vw;
+}
+
+.articles h4 {
+    font-size: 120%;
+    margin-bottom: 0;
+}
+
+.articles img {
+    width: 25vw;
+    height: 30vh;
+}
+
+.articles p:nth-of-type(2) {
+    margin-top: 0.25vw;
+    color: #bcb8b8;
+}
+
+.articletwo {
+    left: 32.5vw;
+}
+
+.articlethree {
+    left: 65vw;
 }
