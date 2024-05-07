@@ -42,24 +42,24 @@ body {
     text-align: center;
 }
 
-.latestnews {
+#latest-news {
     position: absolute;
     top: 42vh;
     left: 5vw;
 }
 
-.bestof2023 {
+#best-of-2023 {
     position: absolute;
     top: 100vh;
     left: 5vw;
 }
 
-.latestnews h3 {
+#latest-news h3 {
     font-size: 200%;
     margin: 0;
 }
 
-.bestof2023 h3 {
+#best-of-2023 h3 {
     font-size: 200%;
     margin: 0;
 }
@@ -84,10 +84,46 @@ body {
     color: #bcb8b8;
 }
 
-.articletwo {
+.article-two {
     left: 32.5vw;
 }
 
-.articlethree {
+.article-three {
     left: 65vw;
+}
+
+.clickable:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.tour-rankings {
+    position: absolute;
+    top: 155vh;
+    left: 5vw;
+    width: 40vw;
+}
+
+.tour-rankings h3 {
+    font-size: 200%;
+}
+
+.tour-rankings table {
+    border-spacing: 0 10px;
+}
+
+#wta-rankings {
+    left: 50vw;
+}
+
+.rankings-table-heading th {
+    width: 10vw;
+    text-align: left;
+    font-size: 150%;
+}
+
+.rankings-table-heading td {
+    width: 10vw;
+    padding-top: 50vh;
+
 }

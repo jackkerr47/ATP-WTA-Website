@@ -17,4 +17,8 @@ function showImages() {
     setTimeout(showImages, 5000);
 }
 
+function displayRankings(){
+
+}
+
 showImages(); // Show the images

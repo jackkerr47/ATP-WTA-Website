@@ -1,0 +1,72 @@
+[
+  {
+    "Ranking": "#1",
+    "Name": "Novak Djokovic",
+    "Age": "36",
+    "Nationality": "Serbian",
+    "Points": "9990"
+  },
+  {
+    "Ranking": "#2",
+    "Name": "Jannik Sinner",
+    "Age": "22",
+    "Nationality": "Italian",
+    "Points": "8860"
+  },
+  {
+    "Ranking": "#3",
+    "Name": "Carlos Alcaraz",
+    "Age": "21",
+    "Nationality": "Spanish",
+    "Points": "7345"
+  },
+  {
+    "Ranking": "#4",
+    "Name": "Daniil Medvedev",
+    "Age": "28",
+    "Nationality": "Russian",
+    "Points": "7195"
+  },
+  {
+    "Ranking": "#5",
+    "Name": "Alexander Zverev",
+    "Age": "27",
+    "Nationality": "German",
+    "Points": "5435"
+  },
+  {
+    "Ranking": "#6",
+    "Name": "Andrey Rublev",
+    "Age": "26",
+    "Nationality": "Russian",
+    "Points": "4740"
+  },
+  {
+    "Ranking": "#7",
+    "Name": "Casper Ruud",
+    "Age": "25",
+    "Nationality": "Norwegian",
+    "Points": "4545"
+  },
+  {
+    "Ranking": "#8",
+    "Name": "Stefanos Tsitsipas",
+    "Age": "25",
+    "Nationality": "Greek",
+    "Points": "3860"
+  },
+  {
+    "Ranking": "#9",
+    "Name": "Hubert Hurkacz",
+    "Age": "27",
+    "Nationality": "Polish",
+    "Points": "3730"
+  },
+  {
+    "Ranking": "#10",
+    "Name": "Grigor Dimitrov",
+    "Age": "32",
+    "Nationality": "Bulgarian",
+    "Points": "3605"
+  }
+]
