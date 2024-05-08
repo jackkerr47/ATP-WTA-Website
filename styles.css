@@ -110,10 +110,13 @@ body {
 
 .tour-rankings table {
     border-spacing: 0 10px;
+    background: white;
+    border-radius: 1vw;
+    color: #151414;
 }
 
 #wta-rankings {
-    left: 50vw;
+    left: 55vw;
 }
 
 .rankings-table-heading th {

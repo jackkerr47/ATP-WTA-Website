@@ -1,0 +1,72 @@
+[
+  {
+    "Ranking": "#1",
+    "Name": "Iga Swiatek",
+    "Age": "22",
+    "Nationality": "Polish",
+    "Points": "10910"
+  },
+  {
+    "Ranking": "#2",
+    "Name": "Aryna Sabalenka",
+    "Age": "26",
+    "Nationality": "Belarusian",
+    "Points": "7498"
+  },
+  {
+    "Ranking": "#3",
+    "Name": "Coco Gauff",
+    "Age": "20",
+    "Nationality": "American",
+    "Points": "7313"
+  },
+  {
+    "Ranking": "#4",
+    "Name": "Elena Rybakina",
+    "Age": "24",
+    "Nationality": "Kazakh",
+    "Points": "6673"
+  },
+  {
+    "Ranking": "#5",
+    "Name": "Jessica Pegula",
+    "Age": "30",
+    "Nationality": "American",
+    "Points": "4655"
+  },
+  {
+    "Ranking": "#6",
+    "Name": "Marketa Vondrousova",
+    "Age": "24",
+    "Nationality": "Czech",
+    "Points": "4090"
+  },
+  {
+    "Ranking": "#7",
+    "Name": "Qinwen Zheng",
+    "Age": "21",
+    "Nationality": "Chinese",
+    "Points": "3945"
+  },
+  {
+    "Ranking": "#8",
+    "Name": "Maria Sakkari",
+    "Age": "28",
+    "Nationality": "Greek",
+    "Points": "3925"
+  },
+  {
+    "Ranking": "#9",
+    "Name": "Ons Jabeur",
+    "Age": "29",
+    "Nationality": "Tunisian",
+    "Points": "3748"
+  },
+  {
+    "Ranking": "#10",
+    "Name": "Jelena Ostapenko",
+    "Age": "26",
+    "Nationality": "Latvian",
+    "Points": "3493"
+  }
+]
