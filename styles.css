@@ -1,9 +1,12 @@
+/* Overall page */
 body {
     background: linear-gradient(to right, rgb(31, 37, 112), #702dac) fixed;
     color: #d8dce3;
     font-family: "Garamond", serif;
 }
 
+
+/* Slideshow */
 .slideshowImages {
     background-size: cover;
     background: linear-gradient(45deg, transparent 50%, rgba(255, 255, 255, 0.5) 50%) center;
@@ -24,6 +27,8 @@ body {
     opacity: 1;
 }
 
+
+/* Heading */
 #title {
     position: absolute;
     top: -3vh;
@@ -42,26 +47,24 @@ body {
     text-align: center;
 }
 
-#latest-news {
+
+/* Rows of articles */
+.article-list {
     position: absolute;
-    top: 42vh;
     left: 5vw;
+}
+
+.article-list h3 {
+    font-size: 200%;
+    margin: 0;
+}
+
+#latest-news {
+    top: 42vh;
 }
 
 #best-of-2023 {
-    position: absolute;
-    top: 100vh;
-    left: 5vw;
-}
-
-#latest-news h3 {
-    font-size: 200%;
-    margin: 0;
-}
-
-#best-of-2023 h3 {
-    font-size: 200%;
-    margin: 0;
+    top: 102.5vh;
 }
 
 .articles {
@@ -92,41 +95,59 @@ body {
     left: 65vw;
 }
 
+
+/* Clickable links */
 .clickable:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
+
+/* Ranking tables */
 .tour-rankings {
     position: absolute;
-    top: 155vh;
+    top: 160vh;
     left: 5vw;
     width: 40vw;
 }
 
 .tour-rankings h3 {
+    text-align: center;
     font-size: 200%;
 }
 
 .tour-rankings table {
     border-spacing: 0 10px;
     background: white;
-    border-radius: 1vw;
+    border-radius: 2vw;
     color: #151414;
+    font-family: "Corbel Light", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tour-rankings h2 {
+    text-align: center;
 }
 
 #wta-rankings {
-    left: 55vw;
+    right: 5vw;
+    left: auto;
 }
 
 .rankings-table-heading th {
     width: 10vw;
-    text-align: left;
-    font-size: 150%;
+    font-size: 175%;
+    color: blue;
+    padding-bottom: 1.5vh;
 }
 
-.rankings-table-heading td {
-    width: 10vw;
-    padding-top: 50vh;
+.tour-rankings table td {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 1.5vh;
+}
 
+#atp-table tr:last-child td, #wta-table tr:last-child td {
+    border: none;
+    padding-bottom: 1vh;
 }

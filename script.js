@@ -28,7 +28,7 @@ function displayRankings(fileName, tableID){
                     <td>${ranking.Ranking}</td>
                     <td>${ranking.Name}</td>
                     <td>${ranking.Age}</td>
-                    <td>${ranking.Nationality}</td>
+                    <td>${ranking.Country}</td>
                     <td>${ranking.Points}</td>
                 `;
                 document.getElementById(tableID).appendChild(newRow);
