@@ -18,21 +18,23 @@ function showImages() {
 }
 
 // Displays the rankings stored in JSON files, requires the name of the file and ID of the table being added to
-function displayRankings(fileName, tableID){
+function displayTop10Rankings(fileName, tableID){
     fetch(fileName)
         .then((response) => response.json())
         .then(rankings =>{
-            rankings.forEach(ranking => {
+            for(let i = 0; i < 10; i++) {
+                if (rankings[i].Ranking != null) {
                 const newRow = document.createElement('tr');
                 newRow.innerHTML = `
-                    <td>${ranking.Ranking}</td>
-                    <td>${ranking.Name}</td>
-                    <td>${ranking.Age}</td>
-                    <td>${ranking.Country}</td>
-                    <td>${ranking.Points}</td>
+                    <td>${rankings[i].Ranking}</td>
+                    <td>${rankings[i].Name}</td>
+                    <td>${rankings[i].Age}</td>
+                    <td>${rankings[i].Country}</td>
+                    <td>${rankings[i].Points}</td>
                 `;
                 document.getElementById(tableID).appendChild(newRow);
-            })
+                }
+            }
         }).catch(error => {
         console.error('Error fetching data:', error);
     });
@@ -40,5 +42,5 @@ function displayRankings(fileName, tableID){
 
 // Call functions
 showImages();
-displayRankings('../atp-rankings.json', 'atp-table');
-displayRankings('../wta-rankings.json', 'wta-table');
+displayTop10Rankings('../atp-rankings.json', 'atp-table');
+displayTop10Rankings('../wta-rankings.json', 'wta-table');

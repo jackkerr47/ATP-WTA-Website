@@ -68,5 +68,40 @@
     "Age": "32",
     "Country": "Bulgaria",
     "Points": "3605"
+  },
+  {
+    "Ranking": "#11",
+    "Name": "Alex de Minaur",
+    "Age": "25",
+    "Country": "Australia",
+    "Points": "3435"
+  },
+  {
+    "Ranking": "#12",
+    "Name": "Holger Rune",
+    "Age": "21",
+    "Country": "Denmark",
+    "Points": "3250"
+  },
+  {
+    "Ranking": "#13",
+    "Name": "Taylor Fritz",
+    "Age": "26",
+    "Country": "USA",
+    "Points": "2870"
+  },
+  {
+    "Ranking": "#14",
+    "Name": "Ben Shelton",
+    "Age": "21",
+    "Country": "USA",
+    "Points": "2460"
+  },
+  {
+    "Ranking": "#15",
+    "Name": "Ugo Humbert",
+    "Age": "25",
+    "Country": "France",
+    "Points": "2455"
   }
 ]
